@@ -1,0 +1,24 @@
+body{
+  background-color:lightslategray;
+}
+
+h1{
+  color:lightcoral;
+  font-family:courier;
+}
+
+h2{
+  color:lavender;
+  font-family:courier;
+}
+
+p{
+  color: aquamarine;
+  font-family:courier;
+}
+
+pre{
+  color: chartreuse;
+  font-family:courier;
+
+}
