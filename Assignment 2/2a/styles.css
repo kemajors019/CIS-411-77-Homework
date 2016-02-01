@@ -1,0 +1,43 @@
+#player1{
+  color: black;
+}
+
+body{
+  background-color: #DCDCDC
+  color:darkolivegreen;
+  font-family: courier new;
+  text-align: center;
+
+}
+
+.gameboard{
+  background-image: url("gameboard.jpg");
+  width: 300px;
+  height:300px;
+  margin: 0 auto;
+}
+
+.cell{
+  height:100px;
+  width:100px;
+  font-size:100px;
+  text-align:center;
+  font-family:"Impact";
+  margin: 5px 10px;
+}
+
+.cell:Click{
+
+}
+  .clickable{
+    cursor:pointer;
+    color: #8FBC8F
+  }
+
+  .x{
+    background-color: black;
+  }
+
+  .o{
+    background-color: black;
+  }

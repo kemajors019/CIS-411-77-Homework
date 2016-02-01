@@ -1,0 +1,140 @@
+    1  /Users/KellyBeth/Pictures/iPod\ Photo\ Cache/Photo\ Database ; exit;
+    2  ipconfic
+    3  ipgonfig
+    4  ipconfig
+    5  /Users/KellyBeth/Pictures/iPod\ Photo\ Cache/Photo\ Database ; exit;
+    6  /Users/KellyBeth/Pictures/iPod\ Photo\ Cache/Photo\ Database ; exit;
+    7  ifconfig en1
+    8  ifconfing en1
+    9  ifconfigen1
+   10  ifconfig en1
+   11  ifconfig e1
+   12  ifconfig en1
+   13  IFCONFIG EN1
+   14  IFCONFIG E1
+   15  sudo ifconfig en1 ether ROKU-MAC-ADDRESS
+   16  sudo ifconfig en1ether B8:3E:59:2C:31:24
+   17  open $TMPDIR
+   18  open $TMPDIR
+   19  open $TMPDIR
+   20  git clone https://github.com/kemajors019/TestingGitHub.git
+   21  ls
+   22  cd TestingGitHub
+   23  ls
+   24  ls TestingGitHUb
+   25  ls TestingGitHub
+   26  ls
+   27  ls
+   28  exi
+   29  exit
+   30  git clone https://github.com/kemajors019/MyFirstRepository.git 
+   31  ls
+   32  cd MyFirstRepository
+   33  ls
+   34  cd my-proj/
+   35  cd Documents
+   36  cd /
+   37  cd documents
+   38  cd Documents
+   39  cd Documents/
+   40  git config --list
+   41  git config --help
+   42  >git remote
+   43  >git remote origin
+   44  > git remote
+   45  origin
+   46  git remote show origin
+   47  cd MyFirstRepository
+   48  > git remote
+   49  git remote show origin
+   50  git fetch
+   51  git fetch origin
+   52  git branch
+   53  git checkout master
+   54  git pull --rebase
+   55  git checkout master
+   56  git checkout -b 1234_sales_tax_calculations
+   57  git add .
+   58  git add lib/
+   59  git add -u
+   60  git commit -m "Implemented the Michigan sales tax calculations [#1234]"
+   61  git commit -am"Refactoring SalesTaxHelper into SalesTax module [#1234]"
+   62  git add README
+   63  git commit --amend
+   64  ls
+   65  cd Documents
+   66  ls
+   67  cd CIS 411
+   68  cd CIS411
+   69  cd CIS-411
+   70  cd CIS 411
+   71  cd CIS\411
+   72  cd CIS\\411
+   73  cd CIS\ 411
+   74  ls
+   75  touch Assignment2
+   76  ls
+   77  cd Assignemnt2
+   78  cd Assignment2
+   79  cd Assignment 1
+   80  cd Assignment\ 1
+   81  cd /
+   82  git clone https://github.com/kemajors019/MyFirstRepository.git
+   83  git clone https://github.com/kemajors019/MyFirstRepository.git
+   84  ls
+   85  cd Desktop
+   86  git clone https://github.com/kemajors019/MyFirstRepository.git kellys-respo
+   87  cd..
+   88  cd ..
+   89  ls
+   90  cd Documents
+   91  ls
+   92  cd CIS\ 411
+   93  ls
+   94  cd Assignment\ 2
+   95  git init
+   96  git config --list
+   97  > git remote
+   98  git remote show origin
+   99  git clone https://github.com/kemajors019/MyFirstRepository.git
+  100  git remote show origin
+  101  cd Desktop
+  102  cd ..
+  103  cd ..
+  104  cd ..
+  105  ls
+  106  cd Desktop
+  107  git remote show origin
+  108  ls
+  109  cd kellys-repo
+  110  kellys-repo
+  111  git remote show origin
+  112  git fetch
+  113  cd Documents
+  114  ls
+  115  cd Documents
+  116  cd ..
+  117  ls
+  118  cd MyFirstRepository
+  119  git remote show origin
+  120  git fetch
+  121  git fetch origin
+  122  git branch
+  123  git checkout master
+  124  git pull --rebase
+  125  git fetch
+  126  git rebase origin/master master
+  127  git status
+  128  git add .
+  129  git commit -m "Implemented the Michigan sales tax calculations [#1234]"
+  130  git reset --hard HEAD~1
+  131  git push --set-upstream origin 1234_sales_tax_calculations
+  132  > git push
+  133  >git push
+  134  git push --set-upstream origin 1234_sales_tax_calculations
+  135  git checkout master
+  136  git pull --rebasw
+  137  git pull --rebase
+  138  git checkout 1234_sales_tax_calculations
+  139  git rebase master
+  140  history > majors_assign2b.txt

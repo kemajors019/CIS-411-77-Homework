@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Register</h1><br>
+
+    <form id="rform">
+      First Name (at least 4 characters):<br>
+      <input type="text" name="fname" minlength="2" required/><br>
+      Last Name (at least 4 characters):<br>
+      <input type="text" name="lname" minlength="2" required/><br>
+      Please enter a valid e-mail address.<br>
+      <input type="text" name="em" id="email" minlength="2" required/><br>
+      Date of Birth (yyyy-mm-dd):<br>
+      <input type="text" name="date" minlength="2" required/><br>
+      Phone Number (xxx-xxx-xxxx):<br>
+      <input type="text" name="number" minlength="2" required/><br>
+      <br>
+      <input type="Submit" value="Submit" onClick="isEmpty()" >
+    </form>
+
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/jquery-validate.js"></script>
+    <script>
+    $("#rform").validate();
+    </script>
+
+
+  </body>
+</html>

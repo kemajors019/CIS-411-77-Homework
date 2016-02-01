@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <link href="faqstyle.css" rel="faqstylesheet" type="text/css"/>
+    <title>FAQ</title>
+    <style type="text/css">
+    #faq div.arrow { background:transparent url(js/arrows.png) no-repeat scroll 0px -16px; width:16px; height:16px; display:block;}
+    </style>
+    <script src="js/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="js/jExpand.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#faq tr:odd").addClass("odd");
+            $("#faq tr:not(.odd)").hide();
+            $("#faq tr:first-child").show();
+
+            $("#faq tr.odd").click(function(){
+                $(this).next("tr").toggle();
+                $(this).find(".arrow").toggleClass("up");
+            });
+            $("#faq").jExpand();
+        });
+    </script>
+  </head>
+  <body>
+    <h1>Frequently Asked Questions</h1><br>
+    <table id="faq">
+    <tr>
+        <td>Question: How does NASA organize their company parties?</td>
+        <td><div class="arrow"></div></td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <ul>
+              <li>Answer: They planet.</li>
+            </ul>
+        </td>
+
+
+</table>
+
+  </body>
+</html>

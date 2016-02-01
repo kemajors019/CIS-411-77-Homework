@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <h1> Contact Us</h1><br>
+
+    <form id="cform">
+      Please enter your first and last name.<br>
+      <input type="text" name="name" minlength="2" required/><br><br>
+      Please enter a valid e-mail address.<br>
+      <input type="text" name="em" id="email" minlength="2" required/>
+      <br><br>
+      Comments:<br>
+      <textarea rows="5" cols="50" minlength="2" required></textarea>
+      <br>
+      <br>
+      <input type="Submit" value="Submit">
+    </form>
+
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/jquery-validate.js"></script>
+    <script>
+    $("#cform").validate();
+    </script>
+
+  </body>
+</html>
