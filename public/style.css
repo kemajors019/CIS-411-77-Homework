@@ -15,6 +15,7 @@ body{
 .assignments{
   list-style: none;
   padding: 0;
+  margin: 10px;
   border: 1px solid #979797;
 }
 
@@ -35,4 +36,18 @@ body{
   margin: 0 20px;
   font-size: 20px;
   font-family: "Arial";
+}
+
+.assignments li .date{
+  color: grey;
+  font-size: 12px;
+}
+
+.assignments li span a {
+  text-decoration: none;
+  color: black;
+}
+
+.assignments li span a:hover {
+  color: grey; /* Change This Color */
 }
