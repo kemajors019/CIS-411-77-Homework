@@ -1,0 +1,38 @@
+/* Gloabl CSS */
+body{
+  margin: 0;
+}
+
+.site-width{
+  max-width: 800px;
+  margin:0 auto;
+}
+/* Page  specific */
+.page-title{
+  text-align: center;
+  font-family: "Arial";
+}
+.assignments{
+  list-style: none;
+  padding: 0;
+  border: 1px solid #979797;
+}
+
+.assignments li{
+  height: 70px;
+  border: 1px solid #979797;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.assignments li:nth-of-type(odd){
+  background-color: #D8D8D8;
+}
+
+.assignments li span{
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: "Arial";
+}
