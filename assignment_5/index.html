@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="tutorialApp">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="tutorial.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="site-width">
+    <h1>Tutorials</h1>
+    <div ng-controller="TutorialListController as tutorialList">
+      <ul class="unstyled">
+        <li ng-repeat="tutorial in tutorialList.data">
+          <img src="{{tutorial.image}}">
+          <div>
+            <a href="{{tutorial.url}}">{{tutorial.title}}</a>
+            <span>{{tutorial.author}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
